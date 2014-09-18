@@ -5,6 +5,7 @@ app.controller("formCtrl", function($scope){
     mathGrade: "0",
     scienceGrade: "0",
     englishGrade: "0",
+    comment: "comments",
     fullName: function () {
       var x = $scope.student;
       return x.firstName + " " + x.lastName;

@@ -19,6 +19,8 @@
       <input type="text" ng-model="student.scienceGrade"><br>
       English Grade:<br>
       <input type="text" ng-model="student.englishGrade"><br>
+      Comments: <br>
+      <textarea ng-model="student.comment"></textarea><br>
     </form>
     <table>
       <th>Student</th><br>
@@ -33,6 +35,9 @@
       </tr>
       <tr>
         <td> english {{ student.englishGrade }}</td>
+      </tr>
+      <tr>
+        <td>Comments: {{student.comment }}</td>
       </tr>
     </table>
 
